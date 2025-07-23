@@ -10,8 +10,6 @@ Welcome to my technical portfolio! This repository showcases my expertise in var
     * *Description: Infrastructure-as-Code templates for deploying Azure resources like VMs, networks, and storage.*
 * [**Azure ARM Templates**](Azure-ARM-Templates/)
     * *Description: Azure Resource Manager templates for complex resource deployments and integrations.*
-* [**Group Policy Automation**](Group-Policy-Automation/)
-    * *Description: Scripts and configurations for automated Group Policy management across domains.*
 * [**Endpoint Management (SCCM/MECM)**](Endpoint-Management-SCCM/)
     * *Description: Examples of task sequences, application packaging, and configuration baselines.*
 * [**Cloud Identity & Security Automation**](Cloud-Identity-Automation/)
