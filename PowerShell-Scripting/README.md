@@ -5,5 +5,5 @@ This folder contains various PowerShell scripts I've developed to automate IT ad
 ## Featured Scripts:
 
 * [**Sample.ps1**](Sample.ps1)
-    * *Purpose:* To validate README navication.
+    * *Purpose:* To validate README navigation.
     * *Concepts Demonstrated:* Hopefully, intuitive and clear navigation of my portfolio.
