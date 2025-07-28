@@ -9,4 +9,4 @@ This folder contains various PowerShell scripts I've developed to automate IT ad
     * *Concepts Demonstrated:* Hopefully, intuitive and clear navigation of my portfolio.
 
 * [**Driver Management**](Driver-Management/)
-    * *Description: Scripts demonstrating automation, administration tasks, and advanced functions.*
+    * *Description: Scripts demonstrating automated management of Windows device drivers.*
