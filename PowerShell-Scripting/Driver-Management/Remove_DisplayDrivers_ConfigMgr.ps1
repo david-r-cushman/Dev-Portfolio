@@ -80,15 +80,18 @@
         https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/devcon-remove
 
     .NOTES
-        This script requires that devcon.exe is in the same directory as this script!
+        Author:
+        Created: MM/DD/YYYY
+        Version: 1.0
+        Purpose: Created as part of professional development and automation portfolio
 
     #>
 
 # Require script to be run with PowerShell version 5.0 or higher
 #Requires -Version 5.0
 
-# Require script to be run as an Administrator
-<#Requires -RunAsAdministrator#>
+#Require script to be run as an Administrator
+#Requires -RunAsAdministrator
 
 # Enable "WhatIf" functionality to test the script without actually removing driver packages
 param (
