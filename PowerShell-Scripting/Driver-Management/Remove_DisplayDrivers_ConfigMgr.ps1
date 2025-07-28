@@ -80,8 +80,8 @@
         https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/devcon-remove
 
     .NOTES
-        Author:
-        Created: MM/DD/YYYY
+        Author: David R. Cushman
+        Created: 07/28/2025
         Version: 1.0
         Purpose: Created as part of professional development and automation portfolio
 
