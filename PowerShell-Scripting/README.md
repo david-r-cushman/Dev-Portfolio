@@ -7,3 +7,6 @@ This folder contains various PowerShell scripts I've developed to automate IT ad
 * [**Sample.ps1**](Sample.ps1)
     * *Purpose:* To validate README navigation.
     * *Concepts Demonstrated:* Hopefully, intuitive and clear navigation of my portfolio.
+
+* [**Driver Management**](Driver-Management/)
+    * *Description: Scripts demonstrating automation, administration tasks, and advanced functions.*
