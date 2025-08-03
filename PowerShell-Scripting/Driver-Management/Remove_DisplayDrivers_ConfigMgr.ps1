@@ -70,7 +70,7 @@
         This script was created with the assistance of GitHub Copilot in VS Code.
         https://code.visualstudio.com/docs/copilot/overview
 
-        How to I obtain devcon.exe?     
+        How do I obtain devcon.exe?     
         https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/devcon
 
         How do I use devcon.exe to list display device hardware ids?
