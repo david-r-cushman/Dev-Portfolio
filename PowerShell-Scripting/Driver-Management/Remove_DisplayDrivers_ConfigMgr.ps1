@@ -11,7 +11,7 @@
         install.  With devcon.exe, you can easily remove the oem.inf file by only needing to know the
         hardware id of the device you wish to remove the driver package for.  And in addition to this,
         devcon.exe allows you to easily determine the hardware id of display adapters by specifying the class
-        of device, which in this case would be the "dsiplay" device class.
+        of device, which in this case would be the "display" device class.
 
     .DESCRIPTION
         This script, which must be run as an Administrator, provides easy and reliable removal of display
