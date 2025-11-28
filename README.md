@@ -6,6 +6,8 @@ Welcome to my technical portfolio! This repository showcases my expertise in var
 
 * [**PowerShell Scripting**](PowerShell-Scripting/)
     * *Description: Scripts demonstrating automation, administration tasks, and advanced functions.*
+* [**PowerShell Modules**](PowerShell-Modules/)
+    * *Description: Scripts demonstrating automation, administration tasks, and advanced functions.*
 * [**Azure Bicep Templates**](Azure-Bicep-Templates/)
     * *Description: Infrastructure-as-Code templates for deploying Azure resources like VMs, networks, and storage.*
 * [**Azure ARM Templates**](Azure-ARM-Templates/)
