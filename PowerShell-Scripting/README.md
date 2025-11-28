@@ -4,24 +4,23 @@ This folder contains PowerShell scripts I developed to automate the management o
 
 ---
 
-## 📂 Featured Scripts
+## 📂 Featured Script Categories
 
-### [Sample.ps1](Sample/)
-- **Purpose:** Placeholder script to validate README navigation.  
-- **Concepts Demonstrated:** Portfolio navigation and documentation clarity.
+### 🖥️ Driver Management
+Scripts focused on automating Windows driver handling and resolving OS upgrade blockers.
 
----
-
-### [Uninstall-DisplayDrivers.ps1](Driver-Management/)
-- **Purpose:** Automates the uninstall of display driver packages using `devcon.exe` to enable successful **Windows 7 → Windows 10 in‑place upgrades**.  
-- **Problem Solved:** Legacy display drivers caused upgrade failures; this script removed both the device and its `oem.inf` package to prevent reinstallation after reboot.  
-- **Concepts Demonstrated:**  
-  - Lifecycle‑safe automation with `-WhatIf`/`-Confirm` support  
-  - Guardrails for VM detection  
-  - Granular exit codes for auditability  
-  - Recruiter‑friendly documentation linking technical depth to business impact  
+- [Uninstall-DisplayDrivers.ps1](Driver-Management/)  
+  *Purpose:* Automates the uninstall of display driver packages using `devcon.exe` to enable successful **Windows 7 → Windows 10 in‑place upgrades**.  
+  *Concepts Demonstrated:* Lifecycle‑safe automation, guardrails for VM detection, granular exit codes, recruiter‑friendly documentation.
 
 ---
+
+### 🛠️ Sample Scripts
+Scripts used for portfolio navigation and demonstration purposes.
+
+- [Sample.ps1](Sample/)  
+  *Purpose:* Placeholder script to validate README navigation.  
+  *Concepts Demonstrated:* Portfolio navigation and documentation clarity.
 
 ## 👔 Value to Employers
 
