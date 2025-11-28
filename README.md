@@ -23,17 +23,11 @@ Reusable modules designed for consistency and onboarding clarity.
 
 ---
 
-### 🔹 [Azure Bicep Templates](Azure-Bicep-Templates/) *(coming soon)*
-Infrastructure‑as‑Code templates for deploying Azure resources such as VMs, networks, and storage.  
+### 🔹 [Azure Infrastructure-as-Code](Azure-Infrastructure-as-Code/)
+Infrastructure‑as‑Code templates for deploying and managing Azure resources.  
+- Subcategories: **Bicep (modern IaC)** and **ARM (legacy IaC)**.  
 - Current status: **Draft stage** — placeholders for future portfolio expansion.  
-- Focus: **Cloud automation, declarative deployments, and modern IaC practices.**
-
----
-
-### 🔹 [Azure ARM Templates](Azure-ARM-Templates/) *(coming soon)*
-Azure Resource Manager templates for complex resource deployments and integrations.  
-- Current status: **Draft stage** — placeholders for future portfolio expansion.  
-- Focus: **Enterprise‑scale deployments, governance, and resource orchestration.**
+- Focus: **Cloud automation, declarative deployments, governance, and lifecycle stewardship.**
 
 ---
 
