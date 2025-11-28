@@ -13,6 +13,8 @@ Each folder contains curated examples that demonstrate not only technical skill,
 Scripts that showcase automation of administration tasks, lifecycle‑safe driver management, and advanced error handling.  
 - Examples: OS upgrade blockers solved with automation, lifecycle‑safe uninstall scripts, recruiter‑ready documentation.  
 - Focus: **Automation clarity, operator experience, and lifecycle stewardship.**
+- Why It Matters: Demonstrates ability to solve real-world IT challenges with automation that is safe, teachable, and recruiter‑friendly.
+- **Status:** ✅ Complete — contains working examples.
 
 ---
 
@@ -20,6 +22,8 @@ Scripts that showcase automation of administration tasks, lifecycle‑safe drive
 Reusable modules designed for consistency and onboarding clarity.  
 - Examples: `Write-ScriptError` module for standardized error logging across pipelines.  
 - Focus: **Reusable patterns, modular design, and audit‑ready error handling.**
+- Why It Matters: Shows ability to refactor scripts into reusable modules, supporting scalability, consistency, and lifecycle stewardship.
+- **Status:** ✅ Complete — contains working examples.
 
 ---
 
@@ -28,6 +32,8 @@ Infrastructure‑as‑Code templates for deploying and managing Azure resources.
 - Subcategories: **Bicep (modern IaC)** and **ARM (legacy IaC)**.  
 - Current status: **Draft stage** — placeholders for future portfolio expansion.  
 - Focus: **Cloud automation, declarative deployments, governance, and lifecycle stewardship.**
+- Why It Matters: Demonstrates ability to automate cloud infrastructure with both modern (Bicep) and legacy (ARM) approaches, signaling breadth and adaptability.
+- **Status:** 🚧 Under Construction — placeholders only, examples coming soon.
 
 ---
 
@@ -36,6 +42,7 @@ PowerShell-based Infrastructure-as-Code for building and managing Hyper-V labs.
 - Subcategories: **Current Lab** (existing environment automation) and **New Lab** (next-generation lab design).  
 - Focus: **On-prem virtualization, repeatable lab deployments, and lifecycle-safe automation.**  
 - Why It Matters: Demonstrates ability to apply IaC principles beyond the cloud, bridging on-prem and hybrid environments.
+- **Status:** 🚧 Under Construction — placeholders only, examples coming soon.
 
 ---
 
@@ -45,6 +52,7 @@ Automation and configuration examples for Microsoft 365 services, including Intu
 - Current status: **Draft stage** — placeholders for future portfolio expansion.  
 - Focus: **Modern workplace automation, endpoint management, and SaaS governance.**  
 - Why It Matters: Demonstrates ability to manage and automate Microsoft 365 environments, bridging infrastructure and productivity platforms.
+- **Status:** 🚧 Under Construction — placeholders only, examples coming soon.
 
 ---
 
