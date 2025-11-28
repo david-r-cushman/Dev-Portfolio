@@ -72,6 +72,23 @@ Automation and configuration examples for Microsoft 365 services, including Intu
 
 ---
 
+## 👤 About Me
+
+I’m **David R. Cushman**, a Cloud Infrastructure & Modern Workplace Engineer specializing in **hybrid automation, endpoint management, and Infrastructure‑as‑Code**.  
+
+My professional focus is on building systems that are:  
+- **Lifecycle‑Safe** — automation with guardrails, error handling, and auditability  
+- **Teachable** — code and documentation that future learners can understand, extend, and trust  
+- **Recruiter‑Friendly** — artifacts that connect technical depth to business impact  
+
+I bring expertise across:  
+- **PowerShell** — advanced scripting, reusable modules, and lifecycle‑safe automation  
+- **Azure IaC** — declarative deployments with Bicep and ARM  
+- **Hyper‑V IaC** — on‑prem virtualization automation with PowerShell  
+- **Microsoft 365** — endpoint management with Intune, messaging with Exchange Online, collaboration with Teams, and governance with SharePoint  
+
+My portfolio reflects not just technical skill, but also my philosophy of **clarity, stewardship, and strategic storytelling** — ensuring every artifact demonstrates both technical depth and professional impact.
+
 ## 🚀 How to Explore
 
 - Navigate into each skill category folder.  
