@@ -7,6 +7,13 @@ Each folder contains curated examples that demonstrate not only technical skill,
 
 ---
 
+## 📊 Legend
+
+- ✅ **Complete** — contains working examples and recruiter‑ready documentation  
+- 🚧 **Under Construction** — placeholders only, examples coming soon  
+
+---
+
 ## 🛠️ Skill Categories
 
 ### 🔹 [PowerShell Scripting](PowerShell-Scripting/)
