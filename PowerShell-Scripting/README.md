@@ -1,4 +1,4 @@
-# 🖥️ PowerShell Scripting – Driver Management
+# 🖥️ PowerShell Scripting
 
 This folder contains PowerShell scripts I developed to automate the management of Windows device drivers. These examples highlight my ability to solve **real enterprise blockers** (such as display driver incompatibilities during OS upgrades) with lifecycle‑safe automation and clear documentation.
 
