@@ -23,7 +23,7 @@ Reusable modules designed for consistency and onboarding clarity.
 
 ---
 
-### 🔹 [Azure Infrastructure-as-Code](Azure-Infrastructure-as-Code/)
+### 🔹 [Azure Infrastructure-as-Code](Azure-IaC/)
 Infrastructure‑as‑Code templates for deploying and managing Azure resources.  
 - Subcategories: **Bicep (modern IaC)** and **ARM (legacy IaC)**.  
 - Current status: **Draft stage** — placeholders for future portfolio expansion.  
