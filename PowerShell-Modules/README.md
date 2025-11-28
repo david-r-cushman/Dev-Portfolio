@@ -9,7 +9,7 @@ Each module demonstrates my ability to refactor functions into packages that can
 ## 📂 Module Categories
 
 ### 🛠️ Sample
-- [Sample.psm1](Sample/)  
+- [Sample](Sample/)  
   *Purpose:* Placeholder module created to validate portfolio navigation and README structure.  
   *Concepts Demonstrated:* Portfolio consistency, navigation clarity, and documentation flow.
 
