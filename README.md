@@ -39,6 +39,15 @@ PowerShell-based Infrastructure-as-Code for building and managing Hyper-V labs.
 
 ---
 
+### 🔹 [M365](M365/)
+Automation and configuration examples for Microsoft 365 services, including Intune, Exchange Online, Teams, and SharePoint.  
+- Subcategories: **Intune** (endpoint management), **Exchange Online**, **Teams**, **SharePoint**.  
+- Current status: **Draft stage** — placeholders for future portfolio expansion.  
+- Focus: **Modern workplace automation, endpoint management, and SaaS governance.**  
+- Why It Matters: Demonstrates ability to manage and automate Microsoft 365 environments, bridging infrastructure and productivity platforms.
+
+---
+
 ## 📑 Portfolio Philosophy
 
 - **Lifecycle‑Safe Automation**: Every script and module is designed with guardrails, error handling, and auditability.  
