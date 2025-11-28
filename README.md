@@ -31,6 +31,14 @@ Infrastructure‑as‑Code templates for deploying and managing Azure resources.
 
 ---
 
+### 🔹 [HyperV-IaC](HyperV-IaC/)
+PowerShell-based Infrastructure-as-Code for building and managing Hyper-V labs.  
+- Subcategories: **Current Lab** (existing environment automation) and **New Lab** (next-generation lab design).  
+- Focus: **On-prem virtualization, repeatable lab deployments, and lifecycle-safe automation.**  
+- Why It Matters: Demonstrates ability to apply IaC principles beyond the cloud, bridging on-prem and hybrid environments.
+
+---
+
 ## 📑 Portfolio Philosophy
 
 - **Lifecycle‑Safe Automation**: Every script and module is designed with guardrails, error handling, and auditability.  
