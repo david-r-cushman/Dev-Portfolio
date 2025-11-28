@@ -2,9 +2,9 @@
 
 ## 💼 Purpose
 
-Efficiently uninstall display driver packages from physical Windows devices using `devcon.exe` and PowerShell. I originally created this script while engineering a **Windows 7 → Windows 10 in‑place upgrade project**, managed through **Microsoft Configuration Manager (ConfigMgr, MECM, SCCM)**.
+Efficiently and accurately uninstall display driver packages from physical Windows devices using `devcon.exe` and PowerShell. I originally created this script while engineering a **Windows 7 → Windows 10 in‑place upgrade project**, managed through **Microsoft Configuration Manager (ConfigMgr, MECM, SCCM)**.
 
-At the time, Windows 7 was approaching end of support, and Windows 10 was the target platform. The in‑place upgrade process that I was engineering with ConfigMgr would fail if legacy display drivers were present. This script enabled streamlined driver management without manual `oem.inf` identification. By reliably and accurately automating the uninstall of display drivers before the upgrade, the process could continue successfully, **eliminating a major blocker in the enterprise OS migration.**  
+The in‑place upgrade process from Windows 7 to Windows 10 was known to be incompatible if Windows 7 display drivers were present. This script enabled streamlined driver management without manual `oem.inf` identification. By reliably and accurately automating the uninstall of display drivers before the upgrade, the in-place upgrade process could continue successfully, **eliminating a major blocker in the enterprise OS migration.**  
 
 ## 🔍 Why It Matters
 
