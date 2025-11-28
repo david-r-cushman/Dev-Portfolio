@@ -89,6 +89,8 @@ I bring expertise across:
 
 My portfolio reflects not just technical skill, but also my philosophy of **clarity, stewardship, and strategic storytelling** — ensuring every artifact demonstrates both technical depth and professional impact.
 
+📎 Connect with me on [LinkedIn](https://www.linkedin.com/in/davidrcushman) for career history and professional context.
+
 ## 🚀 How to Explore
 
 - Navigate into each skill category folder.  
