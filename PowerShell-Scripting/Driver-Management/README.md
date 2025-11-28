@@ -39,6 +39,7 @@ This version showcases my growth in PowerShell expertise, technical decision-mak
 | **Enterprise-Ready Code**   | Built for use with ConfigMgr & OS deployments             |
 | **Tool Selection**          | Chose devcon.exe for flexibility and accuracy        |
 | **Lifecycle-Safe Design**   | Granular exit codes and guardrails for VM detection  |
+| **Change-Management Allignment** | Script only uninstalls display drivers, ensuring scope control and auditability |
 | **Script Scalability**      | Regex patterns documented for future device classes  |
 | **Documentation Practices** | Help-enabled script supports discoverability and maintainability |
 
