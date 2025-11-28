@@ -2,9 +2,13 @@
 
 ## 💼 Purpose
 
-Efficiently and accurately uninstall display driver packages from physical Windows devices using `devcon.exe` and PowerShell. I originally created this script while engineering a **Windows 7 → Windows 10 in‑place upgrade project**, managed through **Microsoft Configuration Manager (ConfigMgr, MECM, SCCM)**.
+This script was created to automate the uninstall of display driver packages from physical Windows devices using `devcon.exe` and PowerShell. I developed it while engineering a **Windows 7 → Windows 10 in‑place upgrade project** managed through **Microsoft Configuration Manager (ConfigMgr / MECM / SCCM)**.  
 
-The in‑place upgrade process from Windows 7 to Windows 10 was known to be incompatible if Windows 7 display drivers were present. This script enabled streamlined driver management without manual `oem.inf` identification. By reliably and accurately automating the uninstall of display drivers before the upgrade, the in-place upgrade process could continue successfully, **eliminating a major blocker in the enterprise OS migration.**  
+During testing, the upgrade process consistently failed when legacy Windows 7 display drivers were present. Other more common tools such as `pnputil.exe` could uninstall the device, but they left the underlying `oem.inf` driver package intact. On reboot, Windows would simply reinstall the drivers from that package, causing the upgrade to fail again.  
+
+`devcon.exe` solved this problem by directly removing the `oem.inf` file associated with the hardware ID. By specifying the display device class, the script could enumerate display adapters, identify their hardware IDs, and then invoke `devcon remove <hardware ID>` to uninstall both the device and its driver package. This **eliminated the risk of drivers re‑installing after reboot** and provided a consistent, reliable, automated way to resolve the blocker.  
+
+By integrating this script into the ConfigMgr in‑place upgrade task sequence, the upgrade could proceed successfully, **removing a critical blocker and enabling smooth, large‑scale enterprise OS migrations.**
 
 ## 🔍 Why It Matters
 
@@ -37,6 +41,32 @@ Since then, I’ve refined the script through study and practice:
 - Structured help documentation to align with PowerShell standards
 
 This version showcases my growth in PowerShell expertise, technical decision-making, and the ability to turn manual processes into scalable, automated solutions.
+
+---
+
+### 🔧 Why devcon.exe Instead of pnputil.exe?
+
+During the migration, one of the key blockers was legacy display drivers. Choosing the right tool to remove them was critical.
+
+**pnputil.exe**
+- Manages driver packages in the Windows driver store (`oem#.inf` files).
+- Can add, delete, and enumerate driver packages.
+- Limitation: **cannot reliably remove active display adapter drivers**.  
+  - If a device is currently using the driver, pnputil fails with:  
+    *“Deleting the driver package failed: One or more devices are presently installed using the specified INF.”*
+- Requires knowing the exact `oem#.inf` file name, with no direct mapping between device hardware IDs and driver packages.
+- In practice, this meant pnputil could not solve the upgrade blocker.
+
+**devcon.exe**
+- Provides direct device management via hardware IDs.
+- Can enumerate devices by class (e.g., `display`) and identify their hardware IDs.
+- Command: `devcon remove <hardware ID>`  
+  - Removes both the device and its associated `oem.inf` driver package.
+- Eliminates the risk of Windows reinstalling the driver after reboot.
+- Simple, reliable, and automatable within a ConfigMgr task sequence.
+
+**✅ Decision**  
+`devcon.exe` was chosen because it directly removed the `oem.inf` packages tied to display adapters, something pnputil could not reliably achieve. This ensured that the in‑place upgrade process could proceed without driver reinstallation, resolving a critical blocker in enterprise OS migrations.
 
 ## 👔 Value to Employers
 
