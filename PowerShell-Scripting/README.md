@@ -6,13 +6,13 @@ This folder contains PowerShell scripts I developed to automate the management o
 
 ## 📂 Featured Scripts
 
-### [Sample.ps1](Sample/Sample.ps1)
+### [Sample.ps1](Sample/)
 - **Purpose:** Placeholder script to validate README navigation.  
 - **Concepts Demonstrated:** Portfolio navigation and documentation clarity.
 
 ---
 
-### [Uninstall-DisplayDrivers.ps1](Driver-Management/Uninstall-DisplayDrivers.ps1)
+### [Uninstall-DisplayDrivers.ps1](Driver-Management/)
 - **Purpose:** Automates the uninstall of display driver packages using `devcon.exe` to enable successful **Windows 7 → Windows 10 in‑place upgrades**.  
 - **Problem Solved:** Legacy display drivers caused upgrade failures; this script removed both the device and its `oem.inf` package to prevent reinstallation after reboot.  
 - **Concepts Demonstrated:**  
