@@ -2,12 +2,15 @@
 
 ## 💼 Purpose
 
-Efficiently uninstall display driver packages from physical Windows devices using `devcon.exe` and PowerShell. Originally built for OS deployment scenarios with **Microsoft Endpoint Configuration Manager (ConfigMgr,MECM, SCCM)**, this tool enables streamlined driver management without manual
-`oem.inf` identification.
+Efficiently uninstall display driver packages from physical Windows devices using `devcon.exe` and PowerShell. I originally created this script while engineering a **Windows 7 → Windows 10 in‑place upgrade project**, managed through **Microsoft Configuration Manager (ConfigMgr, MECM, SCCM)**.
+
+At the time, Windows 7 was approaching end of support, and Windows 10 was the target platform. The in‑place upgrade process that I was engineering with ConfigMgr would fail if legacy display drivers were present. This script enabled streamlined driver management without manual `oem.inf` identification. By reliably and accurately automating the uninstall of display drivers before the upgrade, the process could continue successfully, **eliminating a major blocker in the enterprise OS migration.**  
 
 ## 🔍 Why It Matters
 
-Driver cleanup can make or break OS upgrade stability. This script automates the uninstall of display driver packages by leveraging hardware IDs — eliminating tedious, error-prone manual steps and reducing upgrade failures.
+In‑place upgrades were sensitive to driver compatibility. Display drivers in particular caused the Windows 10 setup engine to error out and quit. This script automated the uninstall of display driver packages by leveraging hardware IDs, ensuring that upgrades proceeded smoothly without manual intervention.  
+
+By embedding this into the **ConfigMgr in‑place upgrade task sequence**, I was able to significantly reduce upgrade failures, minimize technician effort, and improve overall deployment success rates, all under strict change‑management controls.
 
 ## 🛠 Features
 
@@ -20,7 +23,11 @@ Driver cleanup can make or break OS upgrade stability. This script automates the
 
 ## 📘 Background & Growth Story
 
-This script began during a real-world Windows migration project. At the time, I had limited PowerShell experience — but I had a strong drive to improve efficiency. After identifying `devcon.exe` as the best solution for display driver cleanup, I built an initial version with mentorship support.
+This script was originally created by me during a **Large-Scale OS Migration project** where I engineered the upgrade of 3,000 Windows 7 devices to Windows 10 using **Microsoft Configuration Manager**. At the time, Windows 7 was approaching end of support, and Windows 10 was the enterprise target platform. The in‑place upgrade process would fail if legacy display drivers were present, so I created this script to automatically uninstall display drivers before running the upgrade — solving a critical blocker in the migration workflow.
+
+This project is documented in my resume under **Key Projects and Achievements: Large-Scale OS Migration**, where the overall initiative delivered an estimated $1.2M in cost savings by minimizing user disruption, reducing labor overhead, and streamlining workflows. This script was one of the automation tools that enabled that success.
+
+It was also one of the very first PowerShell scripts I ever created. I developed it with guidance from a senior administrator who served as an unofficial mentor, helping me translate manual processes into automation. That collaboration sparked my deeper study of PowerShell and lifecycle‑safe scripting practices. This portfolio version is a refined recreation of that original script, updated to demonstrate lifecycle‑safe design and my growth in PowerShell expertise.
 
 Since then, I’ve refined the script through study and practice:
 - Removed unnecessary logging
@@ -39,7 +46,7 @@ This version showcases my growth in PowerShell expertise, technical decision-mak
 | **Enterprise-Ready Code**   | Built for use with ConfigMgr & OS deployments             |
 | **Tool Selection**          | Chose devcon.exe for flexibility and accuracy        |
 | **Lifecycle-Safe Design**   | Granular exit codes and guardrails for VM detection  |
-| **Change-Management Allignment** | Script only uninstalls display drivers, ensuring scope control and auditability |
+| **Change-Management Alignment** | Script only uninstalls display drivers, ensuring scope control and auditability |
 | **Script Scalability**      | Regex patterns documented for future device classes  |
 | **Documentation Practices** | Help-enabled script supports discoverability and maintainability |
 
