@@ -23,7 +23,7 @@ By embedding this into the **ConfigMgr in‑place upgrade task sequence**, I was
 
 ## 📘 Background & Growth Story
 
-This script was originally created by me during a **Large-Scale OS Migration project** where I engineered the upgrade of 3,000 Windows 7 devices to Windows 10 using **Microsoft Configuration Manager**. At the time, Windows 7 was approaching end of support, and Windows 10 was the enterprise target platform. The in‑place upgrade process would fail if legacy display drivers were present, so I created this script to automatically uninstall display drivers before running the upgrade — solving a critical blocker in the migration workflow.
+This script was originally created by me during a **Large-Scale OS Migration project** where I engineered the upgrade of 3,000 Windows 7 devices to Windows 10 using **Microsoft Configuration Manager**. The in‑place upgrade process would fail if legacy display drivers were present, and therefore I created this script to automatically uninstall display drivers before running the upgrade, solving a critical blocker in the migration workflow.
 
 This project is documented in my resume under **Key Projects and Achievements: Large-Scale OS Migration**, where the overall initiative delivered an estimated $1.2M in cost savings by minimizing user disruption, reducing labor overhead, and streamlining workflows. This script was one of the automation tools that enabled that success.
 
