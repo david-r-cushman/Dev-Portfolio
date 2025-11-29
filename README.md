@@ -89,7 +89,7 @@ I bring expertise across:
 - **Hyper‑V IaC** — on‑prem virtualization automation with PowerShell  
 - **Microsoft 365** — endpoint management with Intune, messaging with Exchange Online, collaboration with Teams, and governance with SharePoint  
 
-My portfolio reflects not just technical skill, but also my philosophy of **clarity, stewardship, and strategic storytelling** — ensuring every artifact demonstrates both technical depth and professional impact.
+My portfolio reflects not just technical skill, but also my philosophy of **clarity, stewardship, and strategic storytelling**, ensuring every artifact demonstrates both technical depth and professional impact.
 
 📎 Connect with me on [LinkedIn](https://www.linkedin.com/in/davidrcushman) for career history and professional context.
 
