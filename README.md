@@ -46,7 +46,7 @@ Infrastructure‑as‑Code templates for deploying and managing Azure resources.
 
 ---
 
-### 🔹 [HyperV-IaC](HyperV-IaC/)
+### 🔹 [Hyper-V Infrastructure-as-Code](HyperV-IaC/)
 PowerShell-based Infrastructure-as-Code for building and managing Hyper-V labs.  
 - Subcategories: **Current Lab** (existing environment automation) and **New Lab** (next-generation lab design).  
 - Focus: **On-prem virtualization, repeatable lab deployments, and lifecycle-safe automation.**  
@@ -55,7 +55,7 @@ PowerShell-based Infrastructure-as-Code for building and managing Hyper-V labs.
 
 ---
 
-### 🔹 [M365](M365/)
+### 🔹 [Microsoft 365](M365/)
 Automation and configuration examples for Microsoft 365 services, including Intune, Exchange Online, Teams, and SharePoint.  
 - Subcategories: **Intune** (endpoint management), **Exchange Online**, **Teams**, **SharePoint**.  
 - Current status: **Draft stage** — placeholders for future portfolio expansion.  
