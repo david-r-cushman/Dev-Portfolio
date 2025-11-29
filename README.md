@@ -1,7 +1,7 @@
 # 🌐 David R. Cushman  
 ### Cloud Infrastructure & Modern Workplace Engineer Portfolio
 
-*Hybrid infrastructure and modern workplace automation — bridging cloud, on‑prem, and SaaS environments.*
+*Hybrid infrastructure and modern workplace automation across cloud, on‑prem, and SaaS environments.*
 
 Welcome to my technical portfolio! This repository highlights my expertise in **enterprise IT infrastructure, endpoint management, and cloud automation** through practical code samples and documentation.  
 
