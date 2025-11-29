@@ -91,6 +91,18 @@ My portfolio reflects not just technical skill, but also my philosophy of **clar
 
 📎 Connect with me on [LinkedIn](https://www.linkedin.com/in/davidrcushman) for career history and professional context.
 
+---
+
+## 📜 Licensing
+
+This portfolio is shared under the **Creative Commons Attribution‑NonCommercial‑NoDerivatives 4.0 International License (CC BY‑NC‑ND 4.0)**.  
+
+- ✅ Recruiters and reviewers are welcome to **view, share, and reference** this work with attribution.  
+- 🚫 The code and documentation may **not** be reused commercially, modified, or redistributed as derivative works.  
+- 📎 For full license details, see the [LICENSE](LICENSE) file or visit [Creative Commons](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+---
+
 ## 🚀 How to Explore
 
 - Navigate into each skill category folder.  
