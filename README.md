@@ -1,6 +1,8 @@
 # 🌐 David R. Cushman  
 ### Cloud Infrastructure & Modern Workplace Engineer Portfolio
 
+*Lifecycle‑safe automation and recruiter‑friendly documentation across PowerShell, IaC, and M365.*
+
 Welcome to my technical portfolio! This repository highlights my expertise in **enterprise IT infrastructure, endpoint management, and cloud automation** through practical code samples and documentation.  
 
 Each folder contains curated examples that demonstrate not only technical skill, but also **lifecycle‑safe design, onboarding clarity, and recruiter‑friendly documentation** — the hallmarks of my professional approach.
