@@ -97,6 +97,7 @@ This portfolio highlights my commitment to stewardship and strategic engineering
 ## 🤖 AI Philosophy
 <details>
 <summary><b>View my "Reality Anchor" Methodology</b></summary>
+
 *Bridging Intent and Reality*
 
 I see AI as both a high-velocity collaborator and a force multiplier, and not as a replacement for human judgment. My role is to leverage my skills, experience, and creativity to bridge the gap between AI's speed and operational reality.
@@ -117,6 +118,7 @@ To maintain this bridge, I operate under four core principles:
 ## 👤 About Me
 <details>
 <summary><b> View Professional Background & Contact Info</b></summary>
+
 I’m **David R. Cushman**, a Cloud Infrastructure & Modern Workplace Engineer specializing in **hybrid automation, endpoint management, and Infrastructure‑as‑Code**.  
 
 I leverage a high-velocity, human-led engineering model to build systems that are:
