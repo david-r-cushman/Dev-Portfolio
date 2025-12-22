@@ -23,6 +23,8 @@ This portfolio highlights my commitment to stewardship and strategic engineering
 ---
 
 ## 🛠️ Skill Categories
+<details>
+<summary><b>View Technical Competencies & Project Examples</b></summary>
 
 ### 🔹 [PowerShell Scripting](PowerShell-Scripting/)
 *Scripts that showcase automation of administration tasks, lifecycle‑safe driver management, and advanced error handling.*
@@ -75,8 +77,12 @@ This portfolio highlights my commitment to stewardship and strategic engineering
 - **Status:** 🚧 Under Construction - placeholders only, examples coming soon.
 
 ---
+</details>
 
 ## 📑 Portfolio Philosophy
+<details>
+<summary><b>View my Standards for Lifecycle-Safe Automation</b></summary>
+
 *Validated Intelligence & Lifecycle-Safe Automation*
 
 - **Reality-Tested Automation**: I treat AI as a high-velocity collaborator, not a definitive source. Every solution is **refactored for reality**, ensuring that generated patterns are validated against environment-specific constraints. I bridge the gap between "what the documentation says" and "what the command actually does" through rigorous local testing.
@@ -86,8 +92,11 @@ This portfolio highlights my commitment to stewardship and strategic engineering
 - **Strategic Impact**: Each artifact connects technical depth to business impact, highlighting ownership and growth.
 
 ---
+</details>
 
 ## 🤖 AI Philosophy
+<details>
+<summary><b>View my "Reality Anchor" Methodology</b></summary>
 *Bridging Intent and Reality*
 
 I see AI as both a high-velocity collaborator and a force multiplier, and not as a replacement for human judgment. My role is to leverage my skills, experience, and creativity to bridge the gap between AI's speed and operational reality.
@@ -103,9 +112,11 @@ To maintain this bridge, I operate under four core principles:
 4. **Radical Transparency & Total Ownership**: I am open about my use of AI because I take personal responsibility for every solution I ship. I use AI to handle the repetitive "toil" of development so I can focus my energy on high-value problem solving, security hardening, and the strategic design of resources. My value is found in the final, validated outcome, regardless of the tools used to accelerate the process.
 
 ---
+</details>
 
 ## 👤 About Me
-
+<details>
+<summary><b> View Professional Background & Contact Info</b></summary>
 I’m **David R. Cushman**, a Cloud Infrastructure & Modern Workplace Engineer specializing in **hybrid automation, endpoint management, and Infrastructure‑as‑Code**.  
 
 I leverage a high-velocity, human-led engineering model to build systems that are:
@@ -126,6 +137,7 @@ My portfolio reflects not just technical skill, but also my philosophy of **clar
 📎 Connect with me on [LinkedIn](https://www.linkedin.com/in/davidrcushman) for career history and professional context.
 
 ---
+</details>
 
 ## 📜 Licensing
 
@@ -139,7 +151,7 @@ This portfolio is shared under the **Creative Commons Attribution‑NonCommercia
 
 ## 🚀 How to Explore
 
-- Navigate into each skill category folder.  
+- Navigate to and expand the "Skill Categories" section, and then select a category of interest.
 - Review the README.md inside each folder for context and usage examples.  
 - Explore individual scripts or modules to see lifecycle‑safe automation in action.  
 
